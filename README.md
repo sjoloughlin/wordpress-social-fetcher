@@ -26,7 +26,8 @@ The plugin currently supports Facebook, Twitter and Instagram. Each platform get
 
 #### Example Query ####
 
-`$args = [
+```
+$args = [
   'post_type' => 'socialfeed',
   'orderby' => 'post_date',
   'order' => 'DESC',
@@ -41,7 +42,8 @@ The plugin currently supports Facebook, Twitter and Instagram. Each platform get
   ]
 ];
 
-$facebook_query = new WP_Query($args);`
+$facebook_query = new WP_Query($args);
+```
 
 #### Disclaimer ####
 
